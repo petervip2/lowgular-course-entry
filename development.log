@@ -1,0 +1,240 @@
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+		"position": 288
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/Users/dominika/WebstormProjects/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "RTs5YMTr4x",
+			"correlationId": "BbbzqyLp_x",
+			"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+		"position": 288
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/Users/dominika/WebstormProjects/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "RTs5YMTr4x",
+			"correlationId": "BbbzqyLp_x",
+			"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/Users/dominika/WebstormProjects/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "RTs5YMTr4x",
+			"correlationId": "BbbzqyLp_x",
+			"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[error] [API]: Error A child syntax list was expected.: {
+	"loggerData": {
+		"action": "injectable/inject-external",
+		"params": {
+			"entityFilePath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+			"externalId": "httpClient"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/Users/dominika/WebstormProjects/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "RTs5YMTr4x",
+				"correlationId": "BbbzqyLp_x",
+				"clickedPath": "/Users/dominika/WebstormProjects/lowgular-course-entry/src/lib/adapters/primary/components/test/test.component.ts",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: A child syntax list was expected.\n    at Object.throwIfNullOrUndefined (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/@ts-morph/common/dist/ts-morph-common.js:473:19)\n    at ClassDeclaration.getChildSyntaxListOrThrow (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:3194:30)\n    at insertIntoBracesOrSourceFileWithGetChildren (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:2516:42)\n    at insertChildren (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:14429:12)\n    at ClassDeclaration.insertConstructors (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:14055:20)\n    at ClassDeclaration.insertConstructor (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:14051:25)\n    at addConstructorParams (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/main.js:9674:30)\n    at injectExternalDependencyCommandHandler (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/main.js:11148:48)\n    at async dispatchCommand (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/main.js:8488:26)\n    at async callCommandCli (/Users/dominika/Library/Application Support/JetBrains/WebStorm2022.2/plugins/LowgularJPlugin/cli/main.js:8532:20)",
+	"level": "error",
+	"message": "[API]: Error A child syntax list was expected."
+}
